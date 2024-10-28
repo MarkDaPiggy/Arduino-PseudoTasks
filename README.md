@@ -20,7 +20,7 @@ using preemptive multitasking in most cases through sensible program structure
 and co-routines.
 
 
-# 2. What
+## 2. What
 
 PseudoTasks are implemented as a set of #defined 'gate' macros in PseudoTasks.h.
 (PseudoTasks.cpp just includes PseudoTasks.h). Gate macros are placed at the
@@ -53,7 +53,7 @@ read a twice and the task only run if the value is unchanged. This filters
 out simple switch bouncing but might not be adequate in all cases.
 
 
-# 3A. How to do short tasks
+## 3A. How to do short tasks
 
 1. Write each of your 'tasks' as a function.
 2. Call each of your functions from loop() like this:
@@ -104,7 +104,7 @@ void task5()
 }
 ```
 
-# 3B. How to do long tasks
+## 3B. How to do long tasks
 
 Long tasks need to be structured so that they don't block the other tasks. Long
 tasks are usually long because they have embedded delays. One way to manage 
