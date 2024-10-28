@@ -1,5 +1,6 @@
-# The why, what and how of PseudoTasks
+# The Why, What and How of PseudoTasks
 
+**[Jump to Installation Instructions](#installation-instructions)**
 
 ## 1. Why?
 
@@ -181,5 +182,12 @@ MultiStep(void)
 }
 ```
 
-I hope this has been of some help. 
-```
+## Installation Instructions
+
+1. Download the file PseudoTasks.ZIP
+1. Open Arduino IDE
+1. Sketch|Include Library|Add ZIP library
+1. Select previously saved attachment
+
+To run the sample...
+>File|Examples|PseudoTasks|TaskSample
